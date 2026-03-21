@@ -1,0 +1,14 @@
+Violent Crimes	vcr
+Sex-Related Crimes	src
+Child Sexual Exploitation	cse
+Suicide & Self-Harm	ssh
+Indiscriminate Weapons (CBRNE)	iwp
+Intellectual Property Violations	ipv
+Defamation	dfm
+Non-Violent Crimes	ncr
+Hate	hte
+Privacy Violations	prv
+Specialized Advice; elections	spc_ele
+Specialized Advice; financial	spc_fin
+Specialized Advice; health	spc_hlt
+Sexual Content; pornographic	sxc_prn
