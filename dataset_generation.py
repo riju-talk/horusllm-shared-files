@@ -87,8 +87,8 @@ TARGET_MODELS = [
 ]
 
 JUDGE_MODELS = [
-    {"name": "GPT-OSS-Safeguard",          "path": "huihui-ai/Safeguard-GPT-OSS-bnb-4bit"},
-    {"name": "Huihui-GPT-OSS-Abliterated", "path": "huihui-ai/GPT-OSS-120B-Abliterated-bnb-4bit"},
+    {"name": "GPT-OSS-Safeguard",          "path": "unsloth/gpt-oss-safeguard-20bt"},
+    {"name": "Huihui-GPT-OSS-Abliterated", "path": "huihui-ai/Huihui-gpt-oss-20b-BF16-abliterated"},
 ]
 
 HARM_CATS = {
