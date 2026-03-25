@@ -47,7 +47,8 @@ ALL_TARGET_MODELS = BASE_MODELS + SFT_MODELS + DPO_MODELS
 # FIX: Use models that actually exist with compatible quantization
 JUDGE_MODELS = [
     {"name": "Llama-3-Judge", "path": "unsloth/Llama-3-8B-Instruct-bnb-4bit"},
-    # Skip GPT-OSS/Safety-OSS until bitsandbytes fixed
+    {"name": "GPT-OSS-Judge", "path": "unsloth/GPT-OSS-20B-bnb-4bit"},
+    {"name": "Safety-OSS-Judge", "path": "unsloth/Safety-OSS-20B"},
 ]
 
 MAX_SEQ_LENGTH       = 32768
